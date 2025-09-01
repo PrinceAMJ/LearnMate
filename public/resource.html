@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resource Recommendations</title>
+  <link rel="stylesheet" href="plan.css">
+  <script defer src="resource.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-branding">
+        <span class="nav-icon">📚</span>
+        <span class="nav-title">Resource Recommendation</span>
+      </div>
+      <div class="nav-links">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="pyq.html">PYQs</a>
+        <a class="nav-link" href="plan.html">Plans</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-container" style="margin-top:5rem;">
+    <header class="main-header">
+      <div class="main-title">Recommended Resources</div>
+      <div class="main-description">Choose a subject to browse curated YouTube playlists, books, PPTs, and notes aimed at mastering key concepts.</div>
+    </header>
+
+    <section class="subject-select-section">
+      <label class="subject-label" for="subjectSelect">Select Subject</label>
+      <select class="subject-dropdown" id="subjectSelect">
+        <option value="" disabled selected>Select...</option>
+      </select>
+    </section>
+
+    <section class="resource-display pyq-display">
+      <div class="pyq-title" id="selectedSubjectTitle">Resources</div>
+      <div class="pyq-list" id="resourceList"></div>
+      <div class="empty-state" id="emptyState" style="display:none;">
+        <div class="empty-icon">📭</div>
+        <div>No recommendations yet!</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
