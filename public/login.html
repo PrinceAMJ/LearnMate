@@ -10,51 +10,29 @@
 <body>
 
     <header class="auth-header">
-    <a href="/index.html" class="home-link">Home</a>
-</header>
+        <a href="/index.html" class="home-link">Home</a>
+    </header>
 
-<div class="auth-container">
-    <div class="auth-box">
-        <h2>Login</h2>
-        <form id="login-form">
-            <div class="input-group">
-                <label for="login-username">Username</label>
-                <input type="text" id="login-username" required>
-            </div>
-            <div class="input-group">
-                <label for="login-password">Password</label>
-                <input type="password" id="login-password" required>
-            </div>
-            <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+    <div class="auth-container">
+        <div class="auth-box">
+            <h2>Login</h2>
+            <div id="message-container"></div>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="login-username">Username</label>
+                    <input type="text" id="login-username" required>
+                </div>
+                <div class="input-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
     </div>
-</div>
 
-<script src="auth.js"></script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const userInfo = document.getElementById('user-info');
-        const loggedInUser = localStorage.getItem('loggedInUser');
-        const loginLink = document.querySelector('.login');
-        const signupLink = document.querySelector('.signup');
-
-        if (loggedInUser) {
-            userInfo.innerHTML = `Welcome, <b>${loggedInUser}</b>! <a href="#" id="logout-link">Logout</a>`;
-            if (loginLink) loginLink.style.display = 'none';
-            if (signupLink) signupLink.style.display = 'none';
-
-            document.getElementById('logout-link').addEventListener('click', () => {
-                localStorage.removeItem('loggedInUser');
-                window.location.reload();
-            });
-
-        } else {
-            if (userInfo) userInfo.style.display = 'none';
-        }
-    });
-</script>
+    <script src="auth.js"></script>
 
 </body>
 </html>

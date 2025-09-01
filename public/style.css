@@ -17,6 +17,20 @@ body{
     position:fixed;
     z-index: 4;
 }
+
+.login {
+    margin-left: auto; /* This pushes the element to the far right */
+}
+#user-info {
+    margin-left: auto; /* This ensures the welcome message aligns correctly */
+    color: #fff;
+    font-weight: bold;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .navlogo{
     height:30px;
     width:160px;
@@ -47,7 +61,7 @@ body{
 
 .home{
     margin-left: 330px;
-    color:#64748b;
+    color:#ffffff;
 }
 .dashboard{
     margin-left: 40px;

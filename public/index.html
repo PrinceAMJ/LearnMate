@@ -3,18 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LearnMate</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- for center alignment of elements
-         vertically we use :
-         align-items:center;
-         
-         for center alignment of elements
-         horizontally we use:
-         justify-content:center;-->
     <header>
       <div class="navbar ">
           <div class="navlogo ">
@@ -29,16 +22,16 @@
     </header>
 
     <div class="herosection">
-            <div class="overview">
-                <br> <br>
-                <h1 class="hero-heading">Transform Your Study Habits with AI-Powered Planning</h1>
-                <br>
-                <p class="hero-content">Identify your weak subjects, analyze past performance, and get personalized study plans to maximize your academic success.</p>
-            </div>
-            <div class="picture">
-                <br> <br>
-                <img src="picture.jpg">
-            </div>
+        <div class="overview">
+            <br> <br>
+            <h1 class="hero-heading">Transform Your Study Habits with AI-Powered Planning</h1>
+            <br>
+            <p class="hero-content">Identify your weak subjects, analyze past performance, and get personalized study plans to maximize your academic success.</p>
+        </div>
+        <div class="picture">
+            <br> <br>
+            <img src="picture.jpg">
+        </div>
     </div>
     <br><br>
     <div class="features-defn">
@@ -52,63 +45,59 @@
 
     <div class="features-section1">
         <div class="box1 box">
-          <div class="under-box">
-            <div class="box-heading">
-                <h3>Weakness Identification</h3>
-            </div>
-            <div class="box-content">
-                <br>
-                <p>Pinpoint your challenging subjects with our intuitive analysis tools.</p>
-                <br>
-                <a style="color:#9c27b0 " style="transition: color 0.3s">Learn more </a>
-            </div>
-          </div>    
+            <div class="under-box">
+                <div class="box-heading">
+                    <h3>Weakness Identification</h3>
+                </div>
+                <div class="box-content">
+                    <br>
+                    <p>Pinpoint your challenging subjects with our intuitive analysis tools.</p>
+                    <br>
+                    <a style="color:#9c27b0" style="transition: color 0.3s">Learn more </a>
+                </div>
+            </div>    
         </div>
-
         <div class="box2 box">
-          <div class="under-box">
-            <div class="box-heading">
-                <h3>Updated PYQ's</h3>
-            </div>
-            <div class="box-content">
-               <br>
-               <p>Obtain the latest previous year questions that are commonly asked in semester exams.</p>
-                <br>
-                <a href="/pyq.html" style="color:#9c27b0">Learn more </a>
-            </div>
-          </div>  
+            <div class="under-box">
+                <div class="box-heading">
+                    <h3>Updated PYQ's</h3>
+                </div>
+                <div class="box-content">
+                    <br>
+                    <p>Obtain the latest previous year questions that are commonly asked in semester exams.</p>
+                    <br>
+                    <a href="/pyq.html" style="color:#9c27b0">Learn more </a>
+                </div>
+            </div>  
         </div>
-
         <div class="box3 box">
             <div class="under-box"> 
-            <div class="box-heading">
-                <h3>Study plans</h3>
-            </div>
-            <div class="box-content">
-                <br>
-               <p>Receive personalized schedules with remediation focus and follow-up activities.</p>
-                <br>
-                <a href="/plan.html" style="color:#9c27b0">Learn more </a>
-                
-            </div>
+                <div class="box-heading">
+                    <h3>Study plans</h3>
+                </div>
+                <div class="box-content">
+                    <br>
+                    <p>Receive personalized schedules with remediation focus and follow-up activities.</p>
+                    <br>
+                    <a href="/plan.html" style="color:#9c27b0">Learn more </a>
+                </div>
             </div> 
         </div>
     </div>
     <div class="features-section2">
         <div class="box4 box">
-          <div class="under-box">
-            <div class="box-heading">
-                <h3>Progress Tracking</h3>
-            </div>
-            <div class="box-content">
-                <br>
-                <p>Visual reports track your improvement with detailed performance metrics over time.</p>
-                <br>
-                <a href="/progress.html" style="color:#9c27b0">Learn more </a>
-            </div>
-          </div>    
+            <div class="under-box">
+                <div class="box-heading">
+                    <h3>Progress Tracking</h3>
+                </div>
+                <div class="box-content">
+                    <br>
+                    <p>Visual reports track your improvement with detailed performance metrics over time.</p>
+                    <br>
+                    <a href="/progress.html" style="color:#9c27b0">Learn more </a>
+                </div>
+            </div> 
         </div>
-       
         <div class="box6 box">
             <div class="under-box"> 
             <div class="box-heading">
@@ -137,7 +126,6 @@
                     <div class="l1 social-logo "><i class="fa-brands fa-instagram"></i></div>
                     <div class="l2 social-logo "><i class="fa-brands fa-github"></i></div>
                     <div class="l3 social-logo "><i class="fa-brands fa-linkedin"></i></div>
-
                 </div>
             </div>
             <div class="foot-sec2 footsec">
@@ -158,5 +146,27 @@
             <p>© 2025 LearnMate. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const userInfo = document.getElementById('user-info');
+            const loggedInUser = localStorage.getItem('loggedInUser');
+            const loginLink = document.querySelector('.login');
+            const signupLink = document.querySelector('.signup');
+
+            if (loggedInUser) {
+                userInfo.innerHTML = `Welcome, <b>${loggedInUser}</b>! <a href="#" id="logout-link">Logout</a>`;
+                if (loginLink) loginLink.style.display = 'none';
+                if (signupLink) signupLink.style.display = 'none';
+
+                document.getElementById('logout-link').addEventListener('click', () => {
+                    localStorage.removeItem('loggedInUser');
+                    window.location.reload();
+                });
+
+            } else {
+                if (userInfo) userInfo.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
