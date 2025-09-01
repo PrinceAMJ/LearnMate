@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress - LearnMate</title>
+  <link rel="stylesheet" href="progress.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="logo">
+      <h2>LearnMate</h2>
+    </div>
+    <nav>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="plan.html">Study Plans</a>
+      <a href="pyq.html">PYQs</a>
+      <a href="progress.html" class="active">Progress</a>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <header>
+      <h2>Progress Tracking</h2>
+    </header>
+
+    <!-- Stats -->
+    <div class="stats-cards">
+      <div class="card"><p>Total Study Hours</p><h3 id="total-hours">0 hrs</h3></div>
+      <div class="card"><p>Subjects Covered</p><h3 id="subjects-covered">0</h3></div>
+      <div class="card"><p>Average Progress</p><h3 id="avg-progress">0%</h3></div>
+    </div>
+
+    <div class="content-grid">
+      <!-- Subject Progress Bars -->
+      <div class="focus-areas">
+        <h3>Subject Progress</h3>
+        <div id="progress-list"></div>
+      </div>
+
+      <!-- Charts -->
+      <div>
+        <div class="chart-container">
+          <h3>Study Hours Over Time</h3>
+          <canvas id="lineChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Subject-wise Performance</h3>
+          <canvas id="barChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="progress.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PYQ Repository - LearnMate</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="pyq.css" />
+</head>
+<body class="bg-gray-50">
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-branding">
+        <span class="nav-title">LearnMate</span>
+      </div>
+      <div class="nav-links">
+        <a href="/dashboard.html" class="nav-link">Dashboard</a>
+        <a href="/plan.html" class="nav-link">Study Plans</a>
+        <a href="/progress.html" class="nav-link">Progress</a>
+        <a href="/pyq.html" class="nav-link active">PYQs</a>
+      </div>
+      <div class="nav-user">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <header class="main-header">
+      <h1 class="main-title">Previous Year Questions Repository</h1>
+      <p class="main-description">
+        Select a subject below to view available previous year question papers.
+      </p>
+    </header>
+
+    <!-- Subject Selection Dropdown -->
+    <section class="subject-select-section">
+      <label for="subjectSelect" class="subject-label">Select Subject</label>
+      <select id="subjectSelect" class="subject-dropdown" aria-label="Select Subject">
+        <option value="" disabled selected>Choose a subject</option>
+      </select>
+    </section>
+
+    <!-- PYQ Display Section -->
+    <section class="pyq-display">
+      <h2 id="selectedSubjectTitle" class="pyq-title">Please select a subject</h2>
+      <div id="pyqList" class="pyq-list">
+        <div id="emptyState" class="empty-state">
+          <i class="fas fa-folder-open empty-icon"></i>
+          <p>Select a subject to view available question papers</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="pyq.js"></script>
+</body>
+</html>

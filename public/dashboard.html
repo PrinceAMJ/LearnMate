@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnMate Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+
+             <nav >
+                 <a href="/index.html" class="active"> Home</a>
+                <a href="/dashboard.html" class="active"> Dashboard</a>
+                <a href="#" class="active"> Study Plans</a>
+                <a href="#" class="active"> Progress</a>
+            </nav> 
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <h2>Dashboard</h2>
+                <div class="header-actions">
+                    <div class="search">
+                      <!--  <input type="text" placeholder="Search..."> -->
+                    </div>
+                </div>
+            </header>
+
+            <div class="stats-cards">
+                <div class="card">
+                    <div>
+                        <p>Active Plans</p>
+                        <h3>3</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Study Hours</p>
+                        <h3>12.5</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Weak Subjects</p>
+                        <h3>2</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div class="focus-areas">
+                    <h3>Current Focus Areas</h3>
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>Calculus</span>
+                            <span>3h this week</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                        <div class="progress-footer">
+                            <span>65% complete</span>
+                            <span>Due in 3 days</span>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>Chemistry</span>
+                            <span>2h this week</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 40%"></div>
+                        </div>
+                        <div class="progress-footer">
+                            <span>40% complete</span>
+                            <span>Due tomorrow</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="upcoming-tasks">
+                    <h3>Upcoming Tasks</h3>
+                    <div class="task">
+                        <input type="checkbox">
+                        <div>
+                            <p>Calculus Chapter 3</p>
+                            <small>Today, 4:00 PM - 5:30 PM</small>
+                        </div>
+                    </div>
+                    <div class="task">
+                        <input type="checkbox">
+                        <div>
+                            <p>Chemistry Review</p>
+                            <small>Tomorrow, 9:00 AM</small>
+                        </div>
+                    </div>
+                    <button class="add-task">
+                         Add Task
+                    </button>
+                </div>
+
+                <div class="weak-subjects">
+                    <h3>Weak Subjects</h3>
+                    <div class="subject-warning">
+                        <div>
+                            <p>Organic Chemistry</p>
+                            <small>Score: 58% (Below Avg)</small>
+                        </div>
+                    </div>
+                    <div class="subject-warning">
+                        <div>
+                            <p>Quantum Physics</p>
+                            <small>Score: 65%</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

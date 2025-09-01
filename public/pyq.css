@@ -1,0 +1,264 @@
+/* Navigation */
+.nav {
+  background-color: #4f46e5; /* indigo-600 */
+  color: white;
+  box-shadow: 0 4px 6px -1px rgb(79 70 229 / 0.4);
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-branding {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+}
+
+.nav-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: none;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #c7d2fe; /* lighter indigo */
+}
+
+.nav-link.active {
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Responsive nav links */
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+  }
+}
+
+/* Main container */
+.main-container {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b; /* gray-800 */
+  margin-bottom: 0.5rem;
+}
+
+.main-description {
+  font-size: 1.125rem;
+  color: #475569; /* gray-600 */
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Subject selection */
+.subject-select-section {
+  max-width: 24rem;
+  margin: 0 auto 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.subject-label {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #334155; /* gray-700 */
+}
+
+.subject-dropdown {
+  padding: 0.5rem 1rem;
+  border: 1px solid #cbd5e1; /* gray-300 */
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #334155;
+  outline-offset: 2px;
+  outline-color: #a5b4fc; /* indigo-300 */
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subject-dropdown:focus {
+  border-color: #6366f1; /* indigo-500 */
+  box-shadow: 0 0 0 3px #a5b4fc; /* indigo-300 */
+}
+
+/* PYQ display */
+.pyq-display {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  padding: 1.5rem 2rem;
+  max-width: 64rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pyq-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b; /* gray-800 */
+  margin-bottom: 1.5rem;
+}
+
+/* PYQ list */
+.pyq-list {
+  max-height: 25rem;
+  overflow-y: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar */
+.pyq-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.pyq-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.pyq-list::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+  border-radius: 10px;
+}
+
+.pyq-list::-webkit-scrollbar-thumb:hover {
+  background: #a5a5a5;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  color: #64748b; /* gray-500 */
+  padding: 2.5rem 0;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+/* PYQ item */
+.pyq-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #f1f5f9; /* gray-100 */
+}
+
+.pyq-item-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pyq-icon-bg {
+  background-color: #fee2e2; /* red-100 */
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dc2626; /* red-600 */
+  font-size: 1.25rem;
+}
+
+.pyq-info h4 {
+  font-weight: 500;
+  color: #1e293b; /* gray-800 */
+  margin: 0;
+}
+
+.pyq-info-details {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #64748b; /* gray-500 */
+  display: flex;
+  gap: 1.5rem;
+}
+
+.pyq-info-details span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.pyq-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pyq-button {
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.pyq-button.view {
+  background-color: #f3f4f6; /* gray-100 */
+  color: #374151; /* gray-700 */
+}
+
+.pyq-button.view:hover {
+  background-color: #e5e7eb; /* gray-200 */
+}
+
+.pyq-button.download {
+  background-color: #e0e7ff; /* indigo-100 */
+  color: #4f46e5; /* indigo-600 */
+}
+
+.pyq-button.download:hover {
+  background-color: #c7d2fe; /* indigo-200 */
+}
