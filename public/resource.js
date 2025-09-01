@@ -5,8 +5,13 @@ const subjects = ["SE", "OB", "DAA", "DSA", "IoT", "CN"];
 const resources = {
   "SE": [
     { type: "YouTube Playlist", title: "Gate Smashers SE Playlist", link: "https://www.youtube.com/watch?v=uJpQlyT_CK4&list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2" },
-    { type: "Book", title: "Pressman - Software Engineering", link: "https://example.com/pressman-se-book" },
-    { type: "PPT", title: "SE Basics Slides", link: "files/se_basics.pptx" },
+    { type: "Book", title: "Object-Oriented Modeling and Design with UML by Jim Rumbaugh, Mike Blah", link: "books/Object-Oriented Modeling and Design with UML by Jim Rumbaugh, Mike Blaha.pdf" },
+    { type: "PPT 1", title: "Introduction to Software Engineering", link: "ppts/se/01 Introduction to Software Engineering.pdf" },
+    { type: "PPT 2", title: "Software Development Life Cycle", link: "ppts/se/02 Software Development Life Cycle.pdf" },
+    { type: "PPT 3", title: "Agile Methodology", link: "ppts/se/03_Agile Methodology.pdf" },
+    { type: "PPT 4", title: "Requirement Analysis and Specification", link: "ppts/se/04 Requirement Analysis and Specification.pdf" },
+    { type: "PPT 5", title: "Software Design", link: "ppts/se/05_Software Design.pdf" },
+    { type: "PPT 6", title: "Function Oriented Design", link: "ppts/se/06_Function Oriented Design.pdf" },
     { type: "Notes", title: "SE Short Notes PDF", link: "files/se_notes.pdf" }
   ],
   "OB": [
