@@ -11,22 +11,22 @@ const subjects = [
 // Sample PYQ data for these subjects (example data)
 const pyqs = {
   "SE": [
-    { title: "Software Engineering EndSem 2018", pages: 4, size: "664 kb", file: "pdfs/SE_2018_endsem.pdf" },
-    { title: "Software Engineering EndSem 2021", pages: 10, size: "555 kb", file: "pdfs/SE_2021_endsem.pdf" },
-    { title: "Software Engineering EndSem 2022", pages: 7, size: "2.01 MB", file: "pdfs/SE_2022_endsem.pdf" },
-    { title: "Software Engineering Final Exam 2024_1", pages: 1, size: "206 kb", file: "pdfs/SE_2024_1_endsem.pdf" },
-    { title: "Software Engineering EndSem 2024_2", pages: 6, size: "0.98 MB", file: "pdfs/SE_2024_2_endsem.pdf" }
+    { title: "Software Engineering EndSem 2018", pages: 4, size: "664 kb", file: "pdfs/SE_2018.pdf" },
+    { title: "Software Engineering EndSem 2021", pages: 10, size: "555 kb", file: "pdfs/SE_2021.pdf" },
+    { title: "Software Engineering EndSem 2022", pages: 7, size: "2.01 MB", file: "pdfs/SE_2022.pdf" },
+    { title: "Software Engineering EndSem 2024_1", pages: 1, size: "206 kb", file: "pdfs/SE_2024_1.pdf" },
+    { title: "Software Engineering EndSem 2024_2", pages: 6, size: "0.98 MB", file: "pdfs/SE_2024_2.pdf" }
   ],
   "OB": [
     { title: "Organizational Behaviour Exam 2023", pages: 10, size: "2.1 MB" },
     { title: "Organizational Behaviour Exam 2022", pages: 9, size: "1.9 MB" }
   ],
   "DAA": [
-    { title: "DAA EndSem 2018", pages: 4, size: "1.0 MB", file: "pyqs/DAA_2018_endsem.pdf" },
-    { title: "DAA EndSem 2019", pages: 4, size: "1.7 MB", file: "pyqs/DAA_2019_endsem.pdf" },
-    { title: "DAA EndSem 2022", pages: 6, size: "1.5 MB", file: "pyqs/DAA_2022_endsem.pdf" },
-    { title: "DAA EndSem 2023_1", pages: 4, size: "423 kb", file: "pyqs/DAA_2023_1_endsem.pdf" },
-    { title: "DAA EndSem 2023_2", pages: 4, size: "402 kb", file: "pyqs/DAA_2023_2_endsem.pdf" }
+    { title: "DAA EndSem 2018", pages: 4, size: "1.0 MB", file: "pdfs/DAA_2018.pdf" },
+    { title: "DAA EndSem 2019", pages: 4, size: "1.7 MB", file: "pdfs/DAA_2019.pdf" },
+    { title: "DAA EndSem 2022", pages: 6, size: "1.5 MB", file: "pdfs/DAA_2022.pdf" },
+    { title: "DAA EndSem 2023_1", pages: 4, size: "423 kb", file: "pdfs/DAA_2023_1.pdf" },
+    { title: "DAA EndSem 2023_2", pages: 4, size: "402 kb", file: "pdfs/DAA_2023_2.pdf" }
   ],
   "DSA": [
     { title: "Data Structures and Algorithms 2023", pages: 13, size: "3.0 MB" },
@@ -37,11 +37,11 @@ const pyqs = {
     { title: "Internet of Things Exam 2022", pages: 7, size: "1.6 MB" }
   ],
   "CN": [
-    { title: "Computer Networks EndSem 2018", pages: 4, size: "954 kb", file: "pyqs/CN_2018_endsem.pdf" },
-    { title: "Computer Networks EndSem 2019", pages: 4, size: "1.15 MB", file: "pyqs/CN_2019_endsem.pdf"},
-    { title: "Computer Networks EndSem 2022", pages: 4, size: "1.21 MB", file: "pyqs/CN_2022_endsem.pdf" },
-    { title: "Computer Networks EndSem 2023", pages: 7, size: "605 kb", file: "pyqs/CN_2023_endsem.pdf" },
-    { title: "Computer Networks EndSem 2024", pages: 4, size: "812 kb", file: "pyqs/CN_2024_endsem.pdf" }
+    { title: "Computer Networks EndSem 2018", pages: 4, size: "954 kb", file: "pdfs/CN_2018.pdf" },
+    { title: "Computer Networks EndSem 2019", pages: 4, size: "1.15 MB", file: "pdfs/CN_2019.pdf"},
+    { title: "Computer Networks EndSem 2022", pages: 4, size: "1.21 MB", file: "pdfs/CN_2022.pdf" },
+    { title: "Computer Networks EndSem 2023", pages: 7, size: "605 kb", file: "pdfs/CN_2023.pdf" },
+    { title: "Computer Networks EndSem 2024", pages: 4, size: "812 kb", file: "pdfs/CN_2024.pdf" }
   ]
 };
 
