@@ -4,7 +4,7 @@ const subjects = ["SE", "OB", "DAA", "DSA", "IoT", "CN"];
 // Resource data for each subject
 const resources = {
   "SE": [
-    { type: "YouTube Playlist", title: "Gate Smashers SE Playlist", link: "https://www.youtube.com/playlist?list=PLqleLpAMfxGD_Qg0l8bKtiJzs0xA3xE8X" },
+    { type: "YouTube Playlist", title: "Gate Smashers SE Playlist", link: "https://www.youtube.com/watch?v=uJpQlyT_CK4&list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2" },
     { type: "Book", title: "Pressman - Software Engineering", link: "https://example.com/pressman-se-book" },
     { type: "PPT", title: "SE Basics Slides", link: "files/se_basics.pptx" },
     { type: "Notes", title: "SE Short Notes PDF", link: "files/se_notes.pdf" }

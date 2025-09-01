@@ -11,11 +11,11 @@ const subjects = [
 // Sample PYQ data for these subjects (example data)
 const pyqs = {
   "SE": [
-    { title: "Software Engineering EndSem 2018", pages: 4, size: "664 kb", file: "pyqs/SE_2018_endsem.pdf" },
-    { title: "Software Engineering EndSem 2021", pages: 10, size: "555 kb", file: "pyqs/SE_2021_endsem.pdf" },
-    { title: "Software Engineering EndSem 2022", pages: 7, size: "2.01 MB", file: "pyqs/SE_2022_endsem.pdf" },
-    { title: "Software Engineering Final Exam 2024_1", pages: 1, size: "206 kb", file: "pyqs/SE_2024_1_endsem.pdf" },
-    { title: "Software Engineering EndSem 2024_2", pages: 6, size: "0.98 MB", file: "pyqs/SE_2024_2_endsem.pdf" }
+    { title: "Software Engineering EndSem 2018", pages: 4, size: "664 kb", file: "pdfs/SE_2018_endsem.pdf" },
+    { title: "Software Engineering EndSem 2021", pages: 10, size: "555 kb", file: "pdfs/SE_2021_endsem.pdf" },
+    { title: "Software Engineering EndSem 2022", pages: 7, size: "2.01 MB", file: "pdfs/SE_2022_endsem.pdf" },
+    { title: "Software Engineering Final Exam 2024_1", pages: 1, size: "206 kb", file: "pdfs/SE_2024_1_endsem.pdf" },
+    { title: "Software Engineering EndSem 2024_2", pages: 6, size: "0.98 MB", file: "pdfs/SE_2024_2_endsem.pdf" }
   ],
   "OB": [
     { title: "Organizational Behaviour Exam 2023", pages: 10, size: "2.1 MB" },
